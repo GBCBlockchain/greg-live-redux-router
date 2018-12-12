@@ -5,7 +5,7 @@ import { addTodo } from "../../redux/actions/todo";
 class AddTodo extends React.Component {
 	constructor(props) {
 		super(props);
-		this.state = { input: "" };
+		this.state = { input: "", key: 0 };
 	}
 
 	updateInput = input => {
