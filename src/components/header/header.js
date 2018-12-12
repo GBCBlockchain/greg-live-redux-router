@@ -10,7 +10,7 @@ const Header = props => {
 			<div> { props.title } </div>
 			<div className="header-links">
 				<Link to="/">Home</Link>
-				<Link to="/about">About</Link>
+				<Link to="/about/me">About</Link>
 				<Link to="/todo">Todo</Link>
 			</div>
 		</header>
